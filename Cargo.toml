@@ -1,10 +1,21 @@
 [package]
 name = "widentify"
 version = "0.1.0"
+authors = ["Tanner Sigel <tanner2379@live.com>"]
 edition = "2021"
+description = "A fully configurable 3 monitor identifier, or whatever else you might want 3 textboxes for"
+documentation = "https://github.com/tanner2379/widentify"
+readme = "README.md"
+repository = "https://github.com/tanner2379/widentify"
+license = "MIT"
+license-file = "LICENSE"
+keywords = ["window-manager", "utility", "notification"]
+categories = ["command-line-utilities"]
+exclude = ["widentify"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-gtk = { git = "https://github.com/gtk-rs/gtk3-rs.git" }
+gtk = "0.15.1"
 timer = "0.1.3"
